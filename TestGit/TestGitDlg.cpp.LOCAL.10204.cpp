@@ -175,5 +175,5 @@ void CTestGitDlg::OnBnClickedButtonTestshow()
 {
 	// TODO: Add your control notification handler code here
 
-	SetDlgItemText(IDC_EDIT_TestShow1,"≤‚ ‘ ‰≥ˆ11111");
+	SetDlgItemText(IDC_EDIT_TestShow1,"≤‚ ‘ ‰≥ˆ1");
 }

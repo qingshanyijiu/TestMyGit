@@ -65,7 +65,10 @@ BEGIN_MESSAGE_MAP(CTestGitDlg, CDialogEx)
 	ON_WM_QUERYDRAGICON()
 	ON_BN_CLICKED(IDOK, &CTestGitDlg::OnBnClickedOk)
 	ON_BN_CLICKED(IDCANCEL, &CTestGitDlg::OnBnClickedCancel)
+<<<<<<< HEAD
 	ON_BN_CLICKED(IDC_BUTTON_TestShow, &CTestGitDlg::OnBnClickedButtonTestshow)
+=======
+>>>>>>> parent of 39f92e4... test commit
 END_MESSAGE_MAP()
 
 
@@ -169,11 +172,14 @@ void CTestGitDlg::OnBnClickedCancel()
 	// TODO: Add your control notification handler code here
 	CDialogEx::OnCancel();
 }
+<<<<<<< HEAD
 
 
 void CTestGitDlg::OnBnClickedButtonTestshow()
 {
 	// TODO: Add your control notification handler code here
 
-	SetDlgItemText(IDC_EDIT_TestShow1,"²âÊÔÊä³ö11111");
+	SetDlgItemText(IDC_EDIT_TestShow1,"²âÊÔÊä³ö1");
 }
+=======
+>>>>>>> parent of 39f92e4... test commit
