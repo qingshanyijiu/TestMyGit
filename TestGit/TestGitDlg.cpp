@@ -63,6 +63,7 @@ BEGIN_MESSAGE_MAP(CTestGitDlg, CDialogEx)
 	ON_WM_SYSCOMMAND()
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
+	ON_BN_CLICKED(IDOK, &CTestGitDlg::OnBnClickedOk)
 END_MESSAGE_MAP()
 
 
@@ -151,3 +152,11 @@ HCURSOR CTestGitDlg::OnQueryDragIcon()
 	return static_cast<HCURSOR>(m_hIcon);
 }
 
+
+
+void CTestGitDlg::OnBnClickedOk()
+{
+	// TODO: Add your control notification handler code here
+	
+	CDialogEx::OnOK();
+}
