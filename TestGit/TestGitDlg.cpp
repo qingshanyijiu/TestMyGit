@@ -65,6 +65,7 @@ BEGIN_MESSAGE_MAP(CTestGitDlg, CDialogEx)
 	ON_WM_QUERYDRAGICON()
 	ON_BN_CLICKED(IDOK, &CTestGitDlg::OnBnClickedOk)
 	ON_BN_CLICKED(IDCANCEL, &CTestGitDlg::OnBnClickedCancel)
+	ON_BN_CLICKED(IDC_BUTTON_TestShow, &CTestGitDlg::OnBnClickedButtonTestshow)
 END_MESSAGE_MAP()
 
 
@@ -167,4 +168,12 @@ void CTestGitDlg::OnBnClickedCancel()
 {
 	// TODO: Add your control notification handler code here
 	CDialogEx::OnCancel();
+}
+
+
+void CTestGitDlg::OnBnClickedButtonTestshow()
+{
+	// TODO: Add your control notification handler code here
+
+	SetDlgItemText(IDC_EDIT_TestShow1,"≤‚ ‘ ‰≥ˆ1");
 }
