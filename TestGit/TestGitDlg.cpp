@@ -1,4 +1,4 @@
-
+﻿
 // TestGitDlg.cpp : implementation file
 //
 
@@ -65,6 +65,7 @@ BEGIN_MESSAGE_MAP(CTestGitDlg, CDialogEx)
 	ON_WM_QUERYDRAGICON()
 	ON_BN_CLICKED(IDOK, &CTestGitDlg::OnBnClickedOk)
 	ON_BN_CLICKED(IDCANCEL, &CTestGitDlg::OnBnClickedCancel)
+	ON_BN_CLICKED(IDC_BUTTON1, &CTestGitDlg::OnBnClickedButton1)
 END_MESSAGE_MAP()
 
 
@@ -167,4 +168,11 @@ void CTestGitDlg::OnBnClickedCancel()
 {
 	// TODO: Add your control notification handler code here
 	CDialogEx::OnCancel();
+}
+
+
+void CTestGitDlg::OnBnClickedButton1()
+{
+	// TODO: ÔÚ´ËÌí¼Ó¿Ø¼þÍ¨Öª´¦Àí³ÌÐò´úÂë
+	MessageBox(_T("Test"));
 }
